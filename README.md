@@ -1,4 +1,4 @@
- Password Generator
+
 A Python-based secure password generator that creates random strong passwords with customizable options. Ideal for cybersecurity projects, ethical hackers, and anyone who wants better password hygiene.
 
  Features
