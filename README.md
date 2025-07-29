@@ -6,26 +6,25 @@ Generates one or more passwords
 
 User selects:
 
-Length
+-Length
 
-Uppercase letters
+-Uppercase letters
 
-Lowercase letters
+-Lowercase letters
 
-Numbers
+-Numbers
 
-Special symbols
+-Special symbols
 
 Generates completely random and strong passwords
 
- Usage
-bash
-Copy
-Edit
-python password_generator.py
- Sample Output:
+   Usage
+-bash
+-Copy
+-Edit
+-python password_generator.py
+  Sample Output:
 
-pgsql
 Copy
 Edit
 How many passwords do you want to generate? 2
