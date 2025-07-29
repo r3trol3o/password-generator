@@ -14,12 +14,12 @@ def generate_password(length, use_upper, use_lower, use_digits, use_symbols):
         character_pool += string.punctuation
 
     if not character_pool:
-        return "⚠️ You must select at least one character type!"
+        return "⚠ You must select at least one character type!"
 
     password = "".join(random.choice(character_pool) for _ in range(length))
     return password
 
-print("🔐 Password Generator 🔐")
+print("Password Generator")
 
 try:
     num_passwords = int(input("How many passwords do you want to generate? "))
@@ -31,7 +31,7 @@ try:
     use_digits = input("Include digits? (y/n): ").lower() == 'y'
     use_symbols = input("Include special symbols? (y/n): ").lower() == 'y'
 
-    print("\n🧪 Generating passwords...\n")
+    print("\n Generating passwords...\n")
     for i in range(num_passwords):
         password = generate_password(length, use_upper, use_lower, use_digits, use_symbols)
         print(f"🔑 Password {i+1}: {password}")
